@@ -32,6 +32,9 @@
     <div class="container">
         <main>
             {% block content %}{% endblock %}
+            <div class="text-end mt-3 text-muted">
+                <small>{% now "l, j F Y H:i" %}</small>
+            </div>
         </main>
     </div>
 
