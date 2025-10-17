@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Index Page</title>
-</head>
-<body>
-    <h1>{{ message }}</h1>
-</body>
-</html>
+{% extends '../base.html' %}
+{% block content %}
+ <strong>{{message}}</strong>
+
+{% endblock %}
+
